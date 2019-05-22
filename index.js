@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const ns = fis.get('namespace') || String(+new Date);
 const imports = fis.get('import') || [];
 
 let maps = [], map=null;
@@ -73,3 +74,10 @@ module.exports = function(fis, file, silent){
         lookup.tryRootLookUp
     ];
 }
+
+
+fis.match('/node_modules/(*)/**.js', {
+    isMod: true,
+    release: true,
+    packTo: '/node_modules/'+ns+'-$1_pkg.js'
+});
