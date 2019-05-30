@@ -28,7 +28,7 @@ map = new Set(maps);
 
 fis.unhook('components');
 fis.hook('commonjs', {
-    extList: ['.js', '.jsx', '.es', '.ts', '.tsx']
+    extList: ['.js', '.jsx', '.es6', '.ts', '.tsx']
 });
 
 let lookup = fis.require('hook-commonjs/lookup.js');
