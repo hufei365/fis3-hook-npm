@@ -79,5 +79,5 @@ module.exports = function(fis, file, silent){
 fis.match('/node_modules/(*)/**.js', {
     isMod: true,
     release: true,
-    packTo: '/node_modules/'+ns+'-$1_pkg.js'
+    packTo: '/node_modules/'+ns+'-$1-pkg.js'
 });

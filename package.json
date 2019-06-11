@@ -8,7 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "fis3": "^3.4.41"
-  }
+  "dependencies": {}
 }
