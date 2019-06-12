@@ -6,7 +6,7 @@
 ## 安装
 
 ``` shell
-npm install -g fis3-hook-npm
+npm install -g fis3-hook-common-npm
 ```
 
 ## 用法
@@ -14,12 +14,12 @@ npm install -g fis3-hook-npm
 在`okay-conf.js`/`fis-conf.js`中添加如下配置
 
 ``` js
-fis.hook('npm');
+fis.hook('common-npm');
 ```
 
 ## 说明
 
-fis3-hook-npm会执行以下操作：
+fis3-hook-common-npm会执行以下操作：
 
 ``` js
 fis.unhook('components');

@@ -1,6 +1,6 @@
 {
-  "name": "fis3-hook-npm",
-  "version": "1.0.0",
+  "name": "fis3-hook-common-npm",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
